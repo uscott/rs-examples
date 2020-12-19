@@ -6,7 +6,7 @@ fn main() {
 	let option = Some(12);
 	if let Some( x ) = option
 	{
-        res += x;
+            res += x;
 	}
     println!("{}", res);
 }
