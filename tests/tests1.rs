@@ -6,11 +6,14 @@
 // This test has a problem with it -- make the test compile! Make the test
 // pass! Make the test fail! Execute `rustlings hint tests1` for hints :)
 
-
 #[cfg(test)]
-mod tests {
+
+mod tests
+{
     #[test]
-    fn you_can_assert() {
+
+    fn you_can_assert()
+    {
         assert!(true);
     }
 }
